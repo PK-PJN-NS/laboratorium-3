@@ -102,9 +102,11 @@ Wymagane jest zainstalowanie pakietu [ImageMagick](https://imagemagick.org/).
     `ELEVATION_ZERO`, `ELEVATION_SPEED`,
     `AZIMUTH_ZERO`, `AZIMUTH_SPEED` w funkcji
     `plot3d()`. Kąty podać w mierze stopniowej,
-    czyli nie w radianach. Wskazówka: całkiem
+    czyli nie w radianach. Wskazówka 1: całkiem
     niezłe wyniki można otrzymać przy
-    `ELEVATION_SPEED = 0`.
+    `ELEVATION_SPEED = 0`. Wskazówka 2:
+    wartość `AZIMUTH_SPEED` powinna być niewielka,
+    żeby ruch wydawał się płynny.
 
     * Obliczyć `elev` i `azim` w funkcji `draw_frame()`
     tak, by w pierwszej połowie klatek punkt widzenia
