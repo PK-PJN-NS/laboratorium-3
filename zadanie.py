@@ -113,7 +113,7 @@ def plot3d(filenames, X, title, gif_name):
         else:
             # TU(12): Obliczyć `elev` i `azim` zgodnie z instrukcją.
             pass
-        ax.view_init(elev=elev, azim=azimu)
+        ax.view_init(elev=elev, azim=azim)
         legend_handles = [
             patches.Circle((0.5, 0.5), color=x) for x in colors.values()]
         ax.legend(legend_handles, colors.keys(), loc='upper left')
