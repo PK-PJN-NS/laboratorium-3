@@ -52,7 +52,7 @@ COLORS = [
 
 def analyze(filename):
     counter = collections.Counter()
-    with open(filename, 'rt') as file:
+    with open(filename, 'rt', encoding='utf-8') as file:
         logging.info('Processing %s', filename)
         contents = file.read().split(u'-----\r\nTa lektura,')[0]
         tokens = TOKENIZE_RE.findall(contents)

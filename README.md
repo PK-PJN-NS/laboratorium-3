@@ -85,7 +85,8 @@ i skalowania wielowymiarowego danych stylometrycznych
 wszystkich książek z folderu `teksty`.
 
 12. Zadanie nadobowiązkowe: ruchome wykresy trójwymiarowe.
-Wymagane jest zainstalowanie pakietu [ImageMagick](https://imagemagick.org/).
+Wymagane jest zainstalowanie programu [ImageMagick](https://imagemagick.org/)
+(to jest osobny program, niezwiązany z Pythonem).
 
     * Rysowanie poszczególnych punktów odbywa się
     podobnie, jak przy wykresach dwuwymiarowych.
@@ -106,7 +107,9 @@ Wymagane jest zainstalowanie pakietu [ImageMagick](https://imagemagick.org/).
     niezłe wyniki można otrzymać przy
     `ELEVATION_SPEED = 0`. Wskazówka 2:
     wartość `AZIMUTH_SPEED` powinna być niewielka,
-    żeby ruch wydawał się płynny.
+    żeby ruch wydawał się płynny. Wskazówka 3:
+    najlepiej wszystko widać, kiedy punkt widzenia
+    jest wzniesiony mniej więcej 30°–45° ponad horyzont.
 
     * Obliczyć `elev` i `azim` w funkcji `draw_frame()`
     tak, by w pierwszej połowie klatek punkt widzenia
