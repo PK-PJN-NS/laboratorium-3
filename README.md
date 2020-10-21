@@ -32,20 +32,22 @@ częstości końcowych znaków przestankowych, przecinków i tzw.
 `INTERESTING_TOKEN_SET` w pliku `zadanie.py`).
 
 5. Uzupełnić funkcję `analyze()`: iterować po liście `tokens`,
-zamieniając każdy token na małe litery. Jeśli wynik zamiany
-należy do zbioru `INTERESTING_TOKEN_SET`, zwiększyć odpowiedni
-element licznika `counter` o 1.
+zamieniając każdy segment (ang. *token*) na małe litery. Jeśli
+wynik zamiany należy do zbioru `INTERESTING_TOKEN_SET`,
+zwiększyć odpowiedni element licznika `counter` o 1.
 
 6. Uzupełnić funkcję `analyze()`: iterując po liście
 `INTERESTING_TOKEN_LIST`, dodawać do zmiennej `result`
 wynik dzielenia odpowiedniego elementu licznika `counter`
 przez `len(tokens)`.
 
-7. W wyniku wywołania funkcji `analyze()` otrzymujemy dla
-każdego pliku z folderu `teksty` 90-wymiarowy wektor
-częstości interesujących nas tokenów w teksćie. Żeby porównać
-wzrokiem wektory, które odpowiadają poszczególnym książkom,
-zastosujemy metody *redukcji wymiarowości*.
+7. W wyniku wywołania funkcji `analyze()` otrzymujemy
+dla każdego pliku z folderu `teksty` 90-wymiarowy wektor
+(nazwa jest trochę myląca; w programie te liczby są
+przechowywane w tablicy jednowymiarowej o 90 elementach)
+częstości interesujących nas segmentów w tekście. Żeby
+porównać wzrokiem wektory, które odpowiadają poszczególnym
+książkom, zastosujemy metody *redukcji wymiarowości*.
 
 8. Pierwsza z zastosowanych metod redukcji wymiarowości
 to *analiza składowych głównych* (*Principal Component
