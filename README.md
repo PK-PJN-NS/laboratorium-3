@@ -1,7 +1,7 @@
 # Przetwarzanie języka naturalnego
 # Laboratorium 3: stylometria i redukcja wymiarowości
 
-1. Skopiować zawartość niniejszego repozytorium
+1. Proszę skopiować zawartość niniejszego repozytorium
 na dysk lokalny. Pobrać i rozpakować plik [teksty.zip](https://drive.google.com/file/d/1kHEp0gL8gDlIA7YBifO6vP3gMJLhaWN2/view?usp=sharing).
 
     ```
@@ -10,7 +10,7 @@ na dysk lokalny. Pobrać i rozpakować plik [teksty.zip](https://drive.google.co
     unzip teksty.zip
     ```
 
-2. Zainstalować `matplotlib` — zewnętrzną bibliotekę Pythona,
+2. Proszę zainstalować `matplotlib` — zewnętrzną bibliotekę Pythona,
 która służy do tworzenia wykresów, oraz `scikit-learn` —
 bibliotekę z narzędziami do uczenia maszynowego.
 
@@ -19,10 +19,10 @@ bibliotekę z narzędziami do uczenia maszynowego.
     pip install sklearn
     ```
 
-3. Pobrać z serwisu https://wolnelektury.pl co najmniej
-trzy pliki tekstowe z książkami autorstwa co najmniej dwóch
-polskich pisarzy lub pisarek innych niż Prus i Sienkiewicz.
-Zapisać je wewnątrz folderu `teksty` pod nazwami
+3. Proszę pobrać z serwisu https://wolnelektury.pl co najmniej
+trzy pliki tekstowe z książkami w języku polskim pióra
+co najmniej dwóch pisarzy lub pisarek innych niż Prus i Sienkiewicz.
+Proszę je zapisać wewnątrz folderu `teksty` pod nazwami w stylu
 *nazwisko-tytuł-połączony-minusami.txt*.
 
 4. *Stylometria* polega na stosowaniu narzędzi statystycznych
